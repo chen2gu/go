@@ -45,7 +45,7 @@ func main() {
 		fmt.Println(k, v)
 	}
 
-	fmt.Println("\ndelete map sex\n")
+	fmt.Println("delete map sex")
 
 	delete(userinfo5, "sex")
 
