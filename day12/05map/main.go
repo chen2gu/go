@@ -32,4 +32,8 @@ func main() {
 
 	fmt.Println(userinfo)
 
+	for k, v := range userinfo {
+		fmt.Println(k, v)
+	}
+
 }
