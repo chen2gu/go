@@ -18,6 +18,10 @@ func cacl1(x, y int) (sum, sub int) {
 	return
 }
 
+func run() {
+	fmt.Println("Run ....")
+}
+
 func main() {
 	sum1 := sunFn(11, 12)
 	fmt.Println(sum1)
@@ -31,4 +35,12 @@ func main() {
 	a, b = cacl1(15, 2)
 	fmt.Println(a, b)
 
+	fmt.Println("---------")
+	a, _ = cacl1(15, 2)
+	fmt.Println(a)
+
+	run()
+	fmt.Println("---------")
+	_, b = cacl1(15, 2)
+	fmt.Println(b)
 }
