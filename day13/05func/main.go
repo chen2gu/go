@@ -22,4 +22,8 @@ func main() {
 		fmt.Println(i)
 	}
 
+	if flag := true; flag {
+		fmt.Println("true")
+	}
+
 }
