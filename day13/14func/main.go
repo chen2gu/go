@@ -16,6 +16,6 @@ func main() {
 	defer cacl("AA", x, cacl("A", x, y))
 	x = 10
 
-	defer cacl("AA", x, cacl("A", x, y))
+	defer cacl("BB", x, cacl("B", x, y))
 	y = 20
 }
